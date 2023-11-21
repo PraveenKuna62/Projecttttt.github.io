@@ -1,0 +1,268 @@
+header{
+    /*background-color:greenyellow;*/
+    width:100%;
+    height:55px;
+    color:aliceblue;
+    margin-left:-10px;
+    margin: right -10px;
+    margin: auto;
+
+  }
+  #button{
+   background-color: greenyellow;
+    width:5%;
+    height:30px;
+    border-radius:8px;
+    margin-left:88.20%;
+    margin-bottom:-80px;
+    margin-top:-60px;
+  }
+
+  #button:hover{
+    background-color: pink;
+  }
+  #logo{
+    margin-left:40px;
+    margin-top:10px;
+  }
+  #we{
+    margin-top: -30px;
+    margin-left: 5.5%
+
+  }
+  body{
+    /*overflow: scroll;*/
+    background-image: url(images.jpg);
+    background-size: cover;
+  }
+  nav{
+    /*background-color:#071952;*/
+    width:100%;
+    height: 40px;
+    color:azure  
+  }
+  
+ #Leave{
+width:170px;
+height: 80px;
+text-align:start;
+padding-top: -80px;
+  }
+
+  #aside{
+    width:21%;
+    margin-left:77%
+  }
+
+  #Name:hover,#Email:hover,#Age:hover,#DOB:hover {
+    border: 5PX double #FA7070;
+  }
+  
+  #Pro:hover ,#Place:hover ,#Learn:hover{
+    background-color: #F2FFE9;
+  }
+  #message{
+    background-color:aquamarine;
+  }
+  #message:hover{
+    background-color: yellow;
+  }
+  #submit:hover{
+    background-color:aqua;
+  }
+  #E:hover{
+    border: 5PX double #FA7070;
+  }
+
+  #Home:hover{
+    background-color: #FA7070;
+  }
+
+  li,a{
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 20px;
+    display:inline;
+   
+  }
+ 
+
+  #lin{
+    width:22%;
+    margin-left: 53%;
+    margin-top: -38px;
+    /*background-color: #7C93C3;
+    border:3px solid blue; */
+    border-top:12px;
+    border-bottom: 12px;
+    padding-left: -40%;
+
+  }
+ .Home{
+  border: 2px solid black;
+  border-radius: 4px;
+  color:black;
+
+  background-color:#E8E2E2;
+ }
+ .Home:hover{
+ 
+  background-color: aqua;
+  border: 3px dashed black;
+
+ }
+
+ #video{
+  margin-top:-29%;
+  
+ }
+
+ .cm{
+  width:20%;
+  height: 10%;
+ }
+ .cm:hover{
+  width:18%;
+  height:8%;
+ }
+
+ #copart{
+  border: 3px dashed grey;
+  
+ }
+#cotext{
+  text-align: center;
+  font-size: 20px;
+  color:aliceblue;
+
+  animation-name:ani;
+  position: relative;
+  animation-duration: 15s;
+}
+@keyframes ani{
+  0%{ left:5%; top:0px;}
+  50%{left:40%;top:0px;}
+  100%{left:5% ; top:0px;}
+
+}
+#hed{
+  position:absolute;
+  top:15.5%;
+  left:22%;
+
+  z-index: 1000;
+
+border:2px solid red;
+
+  height: 70%;
+  width:28rem;
+
+  background:#1a1a1a;
+
+  display:flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#hed .nv{
+  width:100%;
+}
+
+#hed .nv ul{
+ 
+  list-style-type: none;
+ padding: 1rem;
+}
+
+#hed .nv ul li a{
+  display: block;
+  padding:1rem;
+  margin:1.5rem 0;
+  background:#333;
+  color:#fff;
+  color:#fff;
+  text-decoration: none;
+}
+
+#hed .nv ul li a:hover{
+  background: yellowgreen;
+}
+#success{
+  margin-left:50%;
+  margin-top:-34%;
+ width: 50%;
+ height: 20%;
+ color:aliceblue
+}
+
+#fi{
+  animation-name: annn;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes annn{
+  0%{background-color:aqua; left:0%}
+  30%{background-color:#FA7070 ; left:20%}
+  60%{background-color: chartreuse; left:40%}
+  80%{background-color:cornflowerblue ; left:60%}
+  100%{background-color:aqua; left:0%}
+    
+  }
+
+
+footer{
+  border:2px soild black;
+  width:100%;
+  height:400px;
+  background-color: #E8E2E2;
+  border-radius: 20px;
+}
+
+#fol{
+  width:30%;
+  height:60%;
+  background-color:darkgrey;
+  border-radius: 6px;
+  margin-left: 2px;
+}
+
+#log{
+  margin-left: 75%;
+  margin-top: -20%;
+  background-color:darkgrey;
+  border-radius: 8px;
+  margin-right: 2px;
+}
+.im{
+  width: 40px;
+  height: 40px;
+  padding:20px
+}
+
+#field{
+  width: 40%;
+  margin-left: 31%;
+  margin-top: -40px; 
+}
+
+#follow{
+  margin-left: 80%;
+  margin-top: 20px; 
+
+}
+
+#Back
+{
+  margin-left: 0%;
+  margin-top:  -210px; 
+
+}
+
+#b{
+width:200px;
+height: 150px;
+
+}
